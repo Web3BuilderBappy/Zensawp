@@ -39,3 +39,19 @@ npm run dev
 
 # Build for production
 npm run build
+
+zen-zawp/
+├── src/
+│   ├── components/          # React components
+│   │   ├── Swap/           # Swap interface
+│   │   ├── Liquidity/      # Pool management
+│   │   ├── Analytics/      # Data visualization
+│   │   └── Wallet/         # Wallet connection
+│   ├── hooks/              # Custom React hooks
+│   ├── utils/              # Utility functions
+│   ├── contracts/          # Smart contract ABIs
+│   ├── styles/             # CSS/styling
+│   └── types/              # TypeScript definitions
+├── public/                 # Static assets
+├── docs/                   # Documentation
+└── tests/                  # Test suites
