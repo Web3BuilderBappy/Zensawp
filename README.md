@@ -1,71 +1,57 @@
-Zen Zawp - Professional DEX
+# 🪷 Zen Zawp - Native DEX on Zen Chain
 
-https://i.postimg.cc/BnmB8fjf/1758702773871.png
+<div align="center">
 
-🚀 Quick Start
+![Zen Zawp Logo](https://i.postimg.cc/BnmB8fjf/1758702773871.png)
+
+### Professional Decentralized Exchange Built for Zen Chain Ecosystem
+
+[![Twitter](https://img.shields.io/badge/Twitter-@zen__chain-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/zen_chain)
+[![Discord](https://img.shields.io/badge/Discord-zenchain-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/zenchain)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+</div>
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🔄 **Instant Swaps** | Trade ZCX, USDT, BNB, SOL, TRX, SUI instantly |
+| 💧 **Liquidity Pools** | Add/remove liquidity with LP rewards |
+| 👛 **Wallet Support** | MetaMask & Block Wallet integration |
+| 📊 **Live Analytics** | Real-time TVL, volume & APY tracking |
+| 🎯 **Zen Chain Native** | Optimized for Zen Chain ecosystem |
+
+## 🚀 Quick Start
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/zen-zawp.git
+# Clone repository
+git clone https://github.com/zen-chain/zenzawp.git
 
-# Open the project
+# Navigate to project directory
 cd zen-zawp
-# Open index.html in your browser
-```
 
-✨ Features
+# Install dependencies
+npm install
 
-· Multi-Token Swap: USDT, ZCX, BNB, SOL, TRX, SUI
-· Liquidity Pools: Add/Remove liquidity easily
-· Wallet Support: MetaMask & Block Wallet
-· Real-time Analytics: TVL, Volume, APY tracking
+# Start development server
+npm run dev
 
-🔄 Supported Tokens
+# Build for production
+npm run build
 
-Token Logo
-USDT https://i.postimg.cc/kGPQrnpK/tether1645007690922.png
-ZCX https://i.postimg.cc/PrsyqXKv/images.png
-BNB https://i.postimg.cc/cHnR5KXd/bnb1732530324407.png
-SOL https://i.postimg.cc/ZnPr41Gg/solana-sol-token-symbol-cryptocurrency-logo-circle-coin-icon-isolated-white-background-vector-illust.jpg
-TRX https://i.postimg.cc/N0L7mCX9/1958.png
-SUI https://i.postimg.cc/8C3dHddy/20947.png
-
-👛 Supported Wallets
-
-· MetaMask: https://i.postimg.cc/NGHjz8t3/2048px-Meta-Mask-Fox-svg.png
-· Block Wallet: https://i.postimg.cc/9fQf8vXb/20250924-145158.jpg
-
-🌐 Connect With Us
-
-https://img.shields.io/badge/Twitter-Follow_Us-blue?style=for-the-badge&logo=twitter
-https://img.shields.io/badge/Discord-Join_Server-purple?style=for-the-badge&logo=discord
-
-💻 Code Structure
-
-```html
-<!-- Basic Structure -->
-index.html
-├── Header (Logo + Navigation)
-├── Main Content
-│   ├── Swap Section
-│   ├── Pool Section
-│   └── Liquidity Section
-├── Wallet Modal
-├── Token Selector Modal
-└── Footer
-```
-
-🛠️ Quick Setup
-
-1. Download the files
-2. Open index.html in browser
-3. Connect Wallet
-4. Start Swapping!
-
-📊 Pool Features
-
-· Add Liquidity (pair any tokens)
-· Remove Liquidity (anytime)
-· Pool Overview (TVL, volume, APY)
-· LP Rewards (earn trading fees)
-· Liquidity Mining (extra incentives)
+zen-zawp/
+├── src/
+│   ├── components/          # React components
+│   │   ├── Swap/           # Swap interface
+│   │   ├── Liquidity/      # Pool management
+│   │   ├── Analytics/      # Data visualization
+│   │   └── Wallet/         # Wallet connection
+│   ├── hooks/              # Custom React hooks
+│   ├── utils/              # Utility functions
+│   ├── contracts/          # Smart contract ABIs
+│   ├── styles/             # CSS/styling
+│   └── types/              # TypeScript definitions
+├── public/                 # Static assets
+├── docs/                   # Documentation
+└── tests/                  # Test suites
